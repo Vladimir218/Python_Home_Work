@@ -6,7 +6,6 @@ def cower(func):
         print(f'имя функции в def cower - {func.__name__}')
         result = func(*args, **kwargs)
         return result
-
     return wrapper
 
 
@@ -19,9 +18,7 @@ def type_logger(func):
         if args:
             log = [f'{i}: {type(i)} {func.__name__}' for i in args] + [
                 f'key - {i}: item - {j} {type(j)} {func.__name__}' for i, j in kwargs.items()]
-
         print(*log, sep=",\n")
-
     return wrapper1
 
 

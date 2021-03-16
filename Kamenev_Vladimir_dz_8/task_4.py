@@ -15,5 +15,5 @@ def calc_cube(x):
     return x ** 3
 
 
-a = calc_cube(30)
+a = calc_cube(20)
 print(a)

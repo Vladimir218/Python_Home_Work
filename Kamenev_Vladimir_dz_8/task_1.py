@@ -1,6 +1,5 @@
 import re
 
-
 def email_parse(adress):
     mail = {}
     try:

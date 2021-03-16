@@ -1,5 +1,6 @@
 import re
 
+
 pattern = re.compile(r'([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3})'
                      r'.+\[(.+)\]'
                      r'.+(GET|POST|PUT|DELETE)'
